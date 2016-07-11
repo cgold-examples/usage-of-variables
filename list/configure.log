@@ -1,0 +1,12 @@
+[usage-of-variables]> rm -rf _builds
+[usage-of-variables]> cmake -Hlist -B_builds
+l0 = 'a' + 'b' + 'c' = 'a;b;c'
+l1 = 'a;b;c' = 'a;b;c'
+l2 = 'a b' + 'c' = 'a b;c'
+l3 = "'a;b;c'" = 'a;b;c'
+l4 = 'a' + 'b;c' = 'a;b;c'
+print by message: abc
+print by message: abc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /.../usage-of-variables/_builds

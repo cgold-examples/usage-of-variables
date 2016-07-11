@@ -1,0 +1,11 @@
+[usage-of-variables]> rm -rf _builds
+[usage-of-variables]> cmake -Hparent-scope -B_builds
+Top level (before): ''
+Scope 1 (before): ''
+Scope 2 (before): ''
+Scope 2 (after): ''
+Scope 1 (after): '786'
+Top level (after): ''
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /.../usage-of-variables/_builds
