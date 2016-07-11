@@ -1,0 +1,8 @@
+[usage-of-variables]> rm -rf _builds
+[usage-of-variables]> cmake -Hdereference -B_builds
+b: 'xyz_321'
+xyz_1: '456'
+variable_xyz: 'xyz + xyz_321 + 155'
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /.../usage-of-variables/_builds
