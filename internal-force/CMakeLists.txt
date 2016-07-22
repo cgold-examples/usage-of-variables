@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(foo LANGUAGES NONE)
+project(foo NONE)
 
 set(FOO_A "123" CACHE INTERNAL "")
 set(FOO_A "456" CACHE INTERNAL "")

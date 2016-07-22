@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(foo LANGUAGES NONE)
+project(foo NONE)
 
 option(FOO_A "Option A" OFF)
 option(FOO_B "Option A" ON)

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(foo LANGUAGES NONE)
+project(foo NONE)
 
 function(foo)
   message("[foo]: Scope for function 'foo' copied from parent 'boo': { abc = '${abc}', xyz = '${xyz}' }")
