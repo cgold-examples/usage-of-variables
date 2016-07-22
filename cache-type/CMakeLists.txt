@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(foo LANGUAGES NONE)
+project(foo NONE)
 
 set(FOO_A "YES" CACHE BOOL "Variable A")
 set(FOO_B "boo/info.txt" CACHE FILEPATH "Variable B")
