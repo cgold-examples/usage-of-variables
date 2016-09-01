@@ -1,0 +1,11 @@
+[usage-of-variables]> rm -rf _builds
+[usage-of-variables]> cmake -Hunset-cache -B_builds
+[0] X = 456
+[1] X = 123
+[2] X =
+[0] Y = OFF
+[1] Y = ON
+[2] Y =
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /.../usage-of-variables/_builds
